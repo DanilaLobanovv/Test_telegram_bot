@@ -53,3 +53,5 @@ async def get_or_create_bitrix_contact(update: Update):
     ).json()
 
     return create_response.get('result')
+
+a= "даня лох"
