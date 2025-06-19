@@ -1,6 +1,6 @@
 from telegram import Update
 from telegram.ext import ContextTypes, CommandHandler
-from Test_bot.keyboards.keyboards import *
+from keyboards.keyboards import *
 
 class MainCommandHandlers:
 
