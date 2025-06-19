@@ -2,6 +2,10 @@ from telegram import Update
 from telegram.ext import ContextTypes
 import requests
 
+a = 10
+
+a = 20
+
 BITRIX_WEBHOOK = "https://yourdomain.bitrix24.ru/rest/1/yourwebhook/"
 
 
