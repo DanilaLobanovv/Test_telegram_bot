@@ -8,7 +8,7 @@ from callbacks import handle_callback_query
 def main() -> None:
 
     # Создание бота и ввод токена
-    application = Application.builder().token("7722825455:AAGQvJrLgZGBmn9tZpTuAiE8t_PcemTaK6w").build()
+    application = Application.builder().token("").build()
     # Регистрируем все наши кнопки через __init__.py
     register_handlers(application)
     # Обработчик кнопок
